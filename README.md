@@ -15,7 +15,7 @@ You should see something lke this:
 Docker version 1.12.5, build 7392c3b
 ```
 
-####What is a Image?
+##What is a Image?
 An image is an inert, immutable, file that's essentially a snapshot of a container. 
 Images are created with the build command, and they'll produce a container when started with run.
 Images are stored in a Docker registry such as [registry.hub.docker.com][3]. 
@@ -43,24 +43,10 @@ To see our docker images only run: `docker images` and this gives the following 
    <img src="Screenshots/docker_list_of_images.png" alt="Php7 Docker Image" width="80%">
  </p>
 
+In my case I've downloaded 3 images.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Now you are probably asking how you can start using this Php7-apache image on a real project.
+Please see the next section [Running Images with Docker][4]
 
 
 
@@ -70,3 +56,4 @@ To see our docker images only run: `docker images` and this gives the following 
 [1]: https://docs.docker.com/compose/overview/
 [2]: https://docs.docker.com/engine/installation/linux/linux-postinstall/
 [3]: https://hub.docker.com/
+[4]: https://github.com/CarlitosDroid/docker-basics-tutorial/tree/container

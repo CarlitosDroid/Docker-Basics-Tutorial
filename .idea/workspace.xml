@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9415ddd-35eb-4555-b2f8-d8e19156ffd4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Screenshots/docker_list_of_images.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="Introducing Docker.iws" />
@@ -28,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="198">
-                <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <first_editor relative-caret-position="270">
+                <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -58,7 +58,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
   <component name="ProjectFrameBounds">
     <option name="x" value="127" />
-    <option name="y" value="335" />
+    <option name="y" value="1282" />
     <option name="width" value="1833" />
     <option name="height" value="793" />
   </component>
@@ -200,15 +200,15 @@
       <workItem from="1485443246345" duration="2082000" />
       <workItem from="1485446808693" duration="6570000" />
       <workItem from="1485457082316" duration="436000" />
-      <workItem from="1485704174160" duration="8973000" />
+      <workItem from="1485704174160" duration="9547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18061000" />
+    <option name="totallyTimeSpent" value="18635000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="127" y="335" width="1833" height="793" extended-state="0" />
+    <frame x="127" y="1282" width="1833" height="793" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10800224" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -282,8 +282,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="198">
-            <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <first_editor relative-caret-position="270">
+            <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
             <folding />
           </first_editor>
           <second_editor />
