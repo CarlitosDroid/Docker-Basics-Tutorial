@@ -29,15 +29,27 @@ We are going to build a micro service which let us to manage different users usi
 
 ##Downloading our first image
 We need to install Apache2 and PHP7 to get start with the development.
-Lets download our first image that contains PHP7 with Apache2 from the Docker Hub.
- 
+Go to 'Explore Repositories' in Docker Hub and select the php repository.
+
  <p align="center">
-   <img src="Screenshots/php7_docker_image.png" alt="Php7 Docker Image" width="50%">
+   <img src="Screenshots/php7_docker_image.png" alt="Php7 Docker Image" width="80%">
  </p>
 
-I would like to create a php application using
+Lets download our first image that contains PHP7 with Apache2 from the Docker Hub.
+Run the following command: `docker pull php:7.0-apache` to pull the image.
 
-GO to Explore respositories in Docker Hub and
+To see our docker images only run: `docker images` and this gives the following output:
+ <p align="center">
+   <img src="Screenshots/docker_list_of_images.png" alt="Php7 Docker Image" width="80%">
+ </p>
+
+
+
+
+
+
+
+
 
 
 
