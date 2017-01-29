@@ -3,7 +3,7 @@ Docker is a software containerization platform, a tool designed
 to make it easier to create, deploy and run applications by using containers
 #Installing Docker
 Go to the official website, choose your SO and follow the [installation instructions][1]
-Don't forget the [Post-installation steps for Linux][2] and follow only the 'Manage Docker as a non-root user' section.
+Don't forget the [Post-installation steps for Linux][2] and follow only the `Manage Docker as a non-root user` section.
 #### Verify your Installation
 Open a command-line terminal, and run the follow Docker command to verify the Docker is installed.
 
@@ -25,9 +25,16 @@ The Registry is a stateless, highly scalable server side application that stores
 and lets you distribute Docker images. The Registry is open-source, under the permissive Apache license.
 
 ##The Brief
-We are going to build a micro service which let us to manage different users using APACHE2, PHP and MYSQL.
+We are going to build a micro service which let us to manage different users using APACHE2, PHP7 and MYSQL.
 
 ##Downloading our first image
+We need to install Apache2 and PHP7 to get start with the development.
+Lets download our first image that contains PHP7 with Apache2 from the Docker Hub.
+ 
+ <p align="center">
+   <img src="Screenshots/php7_docker_image.png" alt="Php7 Docker Image" width="50%">
+ </p>
+
 I would like to create a php application using
 
 GO to Explore respositories in Docker Hub and
