@@ -45,7 +45,7 @@ To see our docker images only run: `docker images` and this gives the following 
 
 In my case I've downloaded 3 images.
 
-Now you are probably asking how you can start using this Php7-apache image on a real project.
+Now you are probably asking how you can start using this php:7.0-apache image on a real project.
 Please see the next section [Running Images with Docker][4]
 
 
