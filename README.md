@@ -24,8 +24,13 @@ Images are stored in a Docker registry such as [registry.hub.docker.com][3].
 The Registry is a stateless, highly scalable server side application that stores 
 and lets you distribute Docker images. The Registry is open-source, under the permissive Apache license.
 
-##Downloading our first image
+##The Brief
+We are going to build a micro service which let us to manage different users using APACHE2, PHP and MYSQL.
 
+##Downloading our first image
+I would like to create a php application using
+
+GO to Explore respositories in Docker Hub and
 
 
 
