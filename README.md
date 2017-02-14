@@ -5,7 +5,7 @@ Docker container wrap a piece of software in a complete filesystem that contains
 to run: code runtime, system tools, systems libraries, anything that can be installed on a server.
 This guarantees that the software will always run the same, regardless of its environment.
 
-#Working with containers
+###Working with containers
 Don't forget that the official documentation for the php:7.0-apache Docker image is fundamental, 
 is something that you should look at. In fact make it a habit to go through the documentation page 
 for each image that you try, it will give you a clear instructions on how to run it and other configuration
@@ -23,28 +23,29 @@ docker run -d --name my_php_webserver -p 80:80 php:7.0-apache
 `-it` attaches an interactive tty in the container.
 `stop` stop the running container.
 `rm` remove the container after running.
-To create and run a container, we need an image, in this case we'll run our php:7.0-apache image, 
 
+<p align="center">
+   <img src="Screenshots/docker_run_image.png" alt="Docker Run Image" width="80%">
+ </p>
 
-###Listing All Containers
-```shell
-docker ps -a
-```
-###Listing only running containers
+Now, let us check if the Container is running. To do that we'll use our familiar docker ps
+command as shown below
+####Listing only running containers
 ```shell
 docker ps 
 ```
-
-
-
-
-#Exploring our container
+####Listing All Containers
 ```shell
-docker exec -it my_php_webserver bash
+docker ps -a
 ```
-#Docker Volume
 
-###Working with volumes
+And we should see something like this:
+<p align="center">
+   <img src="Screenshots/docker_ps.png" alt="Docker ps command" width="80%">
+ </p>
+
+
+###Exploring our container
 ```shell
 docker exec -it my_php_webserver bash
 ```
