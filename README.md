@@ -41,7 +41,7 @@ docker ps -a
 
 And we should see something like this:
 <p align="center">
-   <img src="Screenshots/docker_ps.png" alt="Docker ps command" width="80%">
+   <img src="Screenshots/docker_ps.png" alt="Docker ps command" width="100%">
  </p>
 
 
