@@ -40,12 +40,23 @@ docker ps -a
 ```
 
 And we should see something like this:
-<p align="center">
+ <p align="center">
    <img src="Screenshots/docker_ps.png" alt="Docker ps command" width="100%">
  </p>
+ 
+And now if we point our browser to [localhost][1] we'll see apache web server in action. 
+ 
+ <p align="center">
+    <img src="Screenshots/docker_point_browser.png" alt="Docker point browser" width="100%">
+ </p>
+ 
 
 
 ###Exploring our container
 ```shell
 docker exec -it my_php_webserver bash
 ```
+
+
+
+[1]: http://localhost/
