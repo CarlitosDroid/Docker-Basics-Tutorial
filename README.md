@@ -73,7 +73,7 @@ apt-get install vim
 And now you can create any php file in the `/var/www/html` path, in my case I've created a simple `index.php` 
 file:
  <p align="center">
-     <img src="Screenshots/docker_php_file_created.png" alt="Docker php file created with vim" width="100%">
+     <img src="Screenshots/docker_php_file_created.png" alt="Docker php file created with vim" width="80%">
  </p>
  And point your browser to localhost again:
  <p align="center">
