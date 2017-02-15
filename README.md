@@ -24,7 +24,7 @@ docker run -d --name my_php_webserver -p 80:80 php:7.0-apache
 `stop` stop the running container.
 `rm` remove the container after running.
 
-<p align="center">
+ <p align="center">
    <img src="Screenshots/docker_run_image.png" alt="Docker Run Image" width="80%">
  </p>
 
@@ -50,12 +50,38 @@ And now if we point our browser to [localhost][1] we'll see apache web server in
     <img src="Screenshots/docker_point_browser.png" alt="Docker point browser" width="100%">
  </p>
  
-
+The image above is shown because we don't have any php file in the `/var/www/html` path inside our container,
+ we need to add some php project in that path to see our work in action. 
 
 ###Exploring our container
 ```shell
 docker exec -it my_php_webserver bash
 ```
+Using the command above we'll browse inside the container and we can see that `/var/www/html` 
+is empty clearly.
+
+###Adding any file inside a container
+We have two ways to create o add some file or folder inside a container:
+####Creating a file inside the container
+After using the `docker exec ...` command line above and inside our container, we can install 
+```shell
+#update the ubuntu apt package manager
+apt-get update
+#install vim editor
+apt-get install vim
+```
+And now you can create any php file in the `/var/www/html` path, in my case I've created a simple `index.php` 
+file:
+ <p align="center">
+     <img src="Screenshots/docker_php_file_created.png" alt="Docker php file created with vim" width="100%">
+ </p>
+ And point your browser to localhost again:
+ <p align="center">
+      <img src="Screenshots/docker_testing_php_apache.png" alt="Docker testing php apache" width="100%">
+ </p>
+
+####Copying a file from host inside container 
+
 
 
 
