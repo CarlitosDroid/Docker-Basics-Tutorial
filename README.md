@@ -81,7 +81,20 @@ file:
  </p>
 
 ####Copying a file from host inside container 
+As we saw earlier, to create a file inside a container we had to install different applications. In this section
+let's see how to copy directly any file/folder from our host to any container by using the `docker cp` Docker command,
+as shown below.
 
+```shell
+#In my case I'll copy a index.php file from Documents folder to IDCONTAINER:PATH
+docker cp /home/carlos/Documents/index.php 03ab80d5f965:/var/www/html
+```
+In the same way you can copy a any folder.
+
+As you can see now my container has the index.php file copied in the /var/www/html path.
+<p align="center">
+     <img src="Screenshots/docker_cp_file.png" alt="Docker cp index.php file" width="80%">
+ </p>
 
 
 
